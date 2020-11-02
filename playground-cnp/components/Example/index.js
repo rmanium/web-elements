@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-// import { Info } from '@rmanium/react-sharables';
+// import { Info } from '@rmanium/web-elements';
 import PropTypes from 'prop-types';
 import { Box } from '@material-ui/core';
 

@@ -1,8 +1,8 @@
-# React Sharable Components
+# React Web Elements
 
 > Boilerplate for publishing React modules with Rollup and 2 examples of its usage via create-react-app and nextJS.
 
-Here is the [github page](https://rmanium.github.io/react-sharables) with storybook where you can demo your available components.
+Here is the [github page](https://rmanium.github.io/web-elements) with storybook where you can demo your available components.
 
 ## Intro
 
@@ -54,12 +54,12 @@ npm install # disregard any warnings about missing peer dependencies
 npm start # runs rollup with watch flag
 ```
 
-We'll also be running our `playground-cra/` create-react-app that's linked to the local version of your `@rmanium/react-sharables` module.
+We'll also be running our `playground-cra/` create-react-app that's linked to the local version of your `@rmanium/web-elements` module.
 
 ```bash
 # (in another tab)
 cd playground-cra
-npm link @rmanium/react-sharables
+npm link @rmanium/web-elements
 npm install
 npm start # runs create-react-app dev server
 ```

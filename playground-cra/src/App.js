@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import { Button } from '@rmanium/react-sharables';
+import { Button } from '@rmanium/web-elements';
 
 const useStyles = makeStyles(() => ({
   root: {

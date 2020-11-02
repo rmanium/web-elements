@@ -1,7 +1,7 @@
 {
-  "name": "@rmanium/react-sharables",
-  "version": "1.0.3",
-  "homepage": "https://rmanium.github.io/react-sharables",
+  "name": "@rmanium/web-elements",
+  "version": "1.0.0",
+  "homepage": "https://rmanium.github.io/web-elements",
   "description": "Boilerplate for publishing modern React modules with Rollup",
   "author": "Arman Khashei",
   "publishConfig": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rmanium/react-sharables.git"
+    "url": "git@github.com:rmanium/web-elements.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
