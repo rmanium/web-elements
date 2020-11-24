@@ -1,6 +1,6 @@
 {
   "name": "@rmanium/web-elements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://rmanium.github.io/web-elements",
   "description": "Boilerplate for publishing modern React modules with Rollup",
   "author": "Arman Khashei",
@@ -27,7 +27,8 @@
     "build-storybook": "build-storybook --no-dll"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "rollup-plugin-alias": "^2.2.0"
   },
   "peerDependencies": {
     "@material-ui/core": "^4.0.0",

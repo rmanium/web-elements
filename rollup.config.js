@@ -3,6 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import resolve from '@rollup/plugin-node-resolve';
+import alias from 'rollup-plugin-alias';
 
 import pkg from './package.json';
 
@@ -19,6 +20,12 @@ export default {
     },
   ],
   plugins: [
+    alias({
+      resolve: ['.jsx', '.js'],
+      entries: {
+        comps: './src/components/shared',
+      },
+    }),
     external(),
     postcss({
       modules: true,
