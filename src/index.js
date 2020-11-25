@@ -1,2 +1,3 @@
 import Button from './Button';
-export { Button };
+import useScrollFrameAnimation from './hooks/useScrollFrameAnimation';
+export { Button, useScrollFrameAnimation };
