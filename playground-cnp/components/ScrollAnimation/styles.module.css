@@ -1,0 +1,22 @@
+.pageWrapper {
+  height: 100vh;
+  overflow: scroll;
+  background-color: red;
+}
+.wrapper {
+  height: 500vh;
+  background: #000;
+}
+
+.main {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.test {
+  color: blue;
+}

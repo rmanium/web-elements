@@ -17,7 +17,7 @@ function Example() {
 
   return (
     <Box className={classes.root}>
-      <Info text="Example Shared Component" link="/" />
+      {/* <Info text="Example Shared Component" link="/" /> */}
     </Box>
   );
 }
