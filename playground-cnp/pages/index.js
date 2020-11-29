@@ -1,7 +1,9 @@
 import Head from 'next/head';
 // import styles from '../styles/Home.module.css';
 import Example from '../components/Example';
-import ScrollAnimation from '../components/ScrollAnimation';
+// import ParallaxAnimation from '../components/ParallaxAnimation';
+import ScrollStoryboard from '../components/ScrollStoryboard';
+// import PositionSticky from '../components/PositionSticky';
 
 export default function Home() {
   return (
@@ -17,7 +19,7 @@ export default function Home() {
         </h1> */}
 
       {/* <div> */}
-      <ScrollAnimation />
+      <ScrollStoryboard />
       {/* </div> */}
       {/* </main> */}
     </div>

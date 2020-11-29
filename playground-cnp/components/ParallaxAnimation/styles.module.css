@@ -1,0 +1,131 @@
+/* $parallax-perspective: 8px;
+
+@function parallax-scale-factor($z-distance) {
+  @return ($parallax-perspective  -  $z-distance) / $parallax-perspective;
+} */
+
+.pageWrapper {
+  width: 100%;
+  /* height: 420px; */
+  height: 100vh;
+
+  background-color: lightgray;
+}
+
+.parallaxWrapper {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+.checkMe {
+  color: red;
+}
+/* .wrapper {
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 8px;
+  perspective-origin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .background {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0px);
+} */
+
+/* .foreground {
+  margin-top: auto;
+  margin-bottom: 50px;
+  transform-origin: 0;
+  transform: translateZ(3px) scale(0.625);
+} */
+
+/* .image {
+  position: absolute;
+  transform-origin: 0 50%;
+  width: 220px;
+  height: 220px;
+} */
+
+/* .background__image {
+  height: 840px;
+  transform: translateZ(0px) scale(1);
+} */
+/* 
+.middle__image {
+  top: 150px;
+  transform: translateZ(5px) scale(0.375);
+}
+
+.foreground__image {
+  top: 105px;
+  transform: translateZ(2px) scale(0.75);
+}
+
+.foreground h1 {
+  font-size: 36px;
+} */
+/* .pageWrapper { */
+/* height: 100vh; */
+/* overflow: scroll; */
+/* background-color: red; */
+/* height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* .wrapper { */
+/* height: 500vh; */
+/* background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  perspective: 8px;
+  perspective-origin: 50%; */
+/* } */
+
+/* @keyframes animateZ {
+  from {
+    transform: translateZ(0px);
+  }
+  to {
+    transform: translateZ(4px);
+  }
+} */
+
+/* .box {
+  transform: translateZ(0px);
+  animation: animateZ 2s infinite;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+} */
+
+/* 
+.main {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+} */
+/* 
+.test {
+  color: blue;
+} */

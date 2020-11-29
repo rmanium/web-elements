@@ -16,7 +16,7 @@ const useStyles = makeStyles(
   }),
 );
 
-function Example() {
+function ScrollFrameAnimation() {
   const canvasRef = useRef(null);
   const classes = useStyles();
 
@@ -32,7 +32,7 @@ function Example() {
   );
 }
 
-Example.defaultProps = {};
-Example.propTypes = {};
+ScrollFrameAnimation.defaultProps = {};
+ScrollFrameAnimation.propTypes = {};
 
-export default Example;
+export default ScrollFrameAnimation;

@@ -1,0 +1,43 @@
+.pageWrapper {
+  /* position: relative; */
+  width: 100vw;
+  /* height: 400vh; */
+  display: flex;
+  flex-direction: column;
+
+  background-color: lightgray;
+  margin: 10px;
+}
+
+.header {
+  width: 100vw;
+  background-color: lightblue;
+  height: 80px;
+  position: sticky;
+  top: 0;
+}
+
+.article {
+  margin: auto auto 50px auto;
+}
+.category,
+.title,
+.footer {
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  height: 50px;
+}
+
+.category {
+  top: 0;
+  background-color: lightcoral;
+}
+
+.title {
+  top: 0;
+}
+
+.footer {
+  /* bottom: 100px; */
+  /* z-index: -1; */
+}
